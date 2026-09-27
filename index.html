@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/Estilos.css">
+    <title>Juego de Blackjack</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Juego del 21</h1>
+        </header>
+        <div class="juego">
+            <div class="jugador">
+                <h2>Mano del Jugador</h2>
+                <div class="cartas" id="cartasJugador"></div>
+                <p class="puntuacion" id="puntosJugador"></p>
+            </div>
+            <div class="crupier">
+                <h2>Mano del Crupier</h2>
+                <div class="cartas" id="cartasPc"></div>
+                <p class="puntuacion" id="puntosPc"></p>
+            </div>
+        </div>
+        <div class="botones">
+            <button id="empezar">Nuevo Juego</button>
+            <button id="pedirCarta">Pedir Carta</button>
+            <button id="finalizar">Fin de la partida</button>
+        </div>
+        <div class="resultado">
+            <p id="resultado"></p>
+        </div>
+    </div>
+    <script src="/Js/juego.js"></script>
+</body>
+</html>
+
+
